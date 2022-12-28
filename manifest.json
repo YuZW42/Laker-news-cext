@@ -1,0 +1,11 @@
+{
+  "name":"Laker News",
+  "version": "1.0.0",
+  "manifest_version":3,
+   "description":"This has record of all the recent Laker news, more features incoming",
+  "author":"William Zeng",
+  "action":{
+    "default_popup":"index.html",
+    "default_title":"Laker news"
+  }
+}
