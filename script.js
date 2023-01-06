@@ -10,7 +10,7 @@ async function fetchData(){
     }
   };
   
-  const res = await fetch('https://nba-latest-news.p.rapidapi.com/articles?team=Lakers', options)
+  const res = await fetch('https://nba-latest-news.p.rapidapi.com/articles?team=lakers&limit=5', options)
 
 
   const record = await res.json()
